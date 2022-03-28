@@ -1,8 +1,0 @@
-Mouse
-Teclado
-Computador 
-Monitor
-SSD
-Internet
-Unix
-Bash
