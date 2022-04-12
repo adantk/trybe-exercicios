@@ -10,12 +10,12 @@ for (let i = 0; i <= n; i += 1) {
 }
 console.log(resultado); */
  /* Exercicio 1  */
-let fatorial = 10;
+/* let fatorial = 10;
 let resultado = fatorial;
-for (var i = 1; i < fatorial; i++) {
+for (let i = 1; i < fatorial; i++) {
     resultado *= i;
 }
-console.log(resultado);
+console.log(resultado); */
 
 
 
@@ -28,3 +28,14 @@ console.log(resultado);
 var sss = reverse("trybe")
 console.log(sss)
  */
+
+Exercicio 3 
+let array = ['java', 'javascript', 'python', 'html', 'css'];
+let menorPalavra = array.split('');
+console.log( typeof(menorPalavra))
+Array.min = function ( menorPalavra) {
+    return Math.min.apply(Math, menorPalavra);
+    console.log(Array.min(menorPalavra))
+};
+console.log(Array.min(menorPalavra))
+
